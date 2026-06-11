@@ -661,7 +661,7 @@ nextflow -version   # should print 23.x or higher
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/yourname/rna-dexamethasone.git
+git clone https://github.com/yerpopek-cmyk/rna-dexamethasone-pipeline.git
 cd rna-dexamethasone
 ```
 

@@ -17,7 +17,7 @@ sudo mv nextflow /usr/local/bin/
 
 ### 2. Clone the pipeline
 ```bash
-git clone https://github.com/yourname/rna-dexamethasone.git
+git clone https://github.com/yerpopek-cmyk/rna-dexamethasone-pipeline.git
 cd rna-dexamethasone
 ```
 
