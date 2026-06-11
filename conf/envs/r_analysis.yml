@@ -1,0 +1,28 @@
+name: rnaseq-r
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.5.0
+  - r-optparse
+  - r-ggplot2
+  - r-dplyr
+  - r-tibble
+  - r-pheatmap
+  - r-rmarkdown
+  - r-rcolorbrewer
+  - r-ggrepel
+  - r-scales
+  - r-stringr
+  - r-dt
+  - r-kableextra
+  - bioconductor-deseq2
+  - bioconductor-reactomepa
+  - bioconductor-clusterprofiler
+  - bioconductor-enrichplot
+  - bioconductor-org.hs.eg.db
+  - bioconductor-enhancedvolcano
+  - bioconductor-fgsea
+  - bioconductor-dose
+  - bioconductor-ggupset

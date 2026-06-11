@@ -1,0 +1,46 @@
+# Nextflow working directories (auto-generated, large, not reproducible)
+work/
+.nextflow/
+.nextflow.log*
+
+# Pipeline outputs (large datasets — download separately)
+results/
+data/
+refs/
+
+# R generated binary files
+*.rds
+*.RData
+Rplots.pdf
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+*.DS_Store
+
+# IDE / editor files
+.Rproj.user/
+*.Rproj
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Compressed archives (avoid accidentally committing large downloads)
+*.tar.gz
+*.zip
+*.gz
+*.bz2
+
+# STAR temporary directory (if left behind after a crash)
+_STARtmp/
+_STARgenome/
+
+# Logs that Nextflow generates in the project root
+Log.out

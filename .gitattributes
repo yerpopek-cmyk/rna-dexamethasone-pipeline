@@ -1,0 +1,13 @@
+# Ensure all text files use LF line endings in the repository
+# (even when edited on Windows), for portability with Linux/WSL2 runners
+
+* text=auto eol=lf
+
+# Binary files — never modify line endings
+*.bam        binary
+*.bai        binary
+*.gz         binary
+*.zip        binary
+*.png        binary
+*.pdf        binary
+*.rds        binary

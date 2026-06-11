@@ -1,0 +1,9 @@
+sample,condition,fastq1,fastq2
+SRR1039508,control,data/SRR1039508_1.fastq.gz,data/SRR1039508_2.fastq.gz
+SRR1039509,treated,data/SRR1039509_1.fastq.gz,data/SRR1039509_2.fastq.gz
+SRR1039512,control,data/SRR1039512_1.fastq.gz,data/SRR1039512_2.fastq.gz
+SRR1039513,treated,data/SRR1039513_1.fastq.gz,data/SRR1039513_2.fastq.gz
+SRR1039516,control,data/SRR1039516_1.fastq.gz,data/SRR1039516_2.fastq.gz
+SRR1039517,treated,data/SRR1039517_1.fastq.gz,data/SRR1039517_2.fastq.gz
+SRR1039520,control,data/SRR1039520_1.fastq.gz,data/SRR1039520_2.fastq.gz
+SRR1039521,treated,data/SRR1039521_1.fastq.gz,data/SRR1039521_2.fastq.gz

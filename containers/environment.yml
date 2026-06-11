@@ -1,0 +1,61 @@
+# =============================================================================
+# Conda Environment: RNA-seq Dexamethasone Pipeline
+# Usage: conda env create -f environment.yml
+#        conda activate rna-dex
+# =============================================================================
+
+name: rna-dex
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # ── Python tools ─────────────────────────────────────────────
+  - python=3.11
+  - multiqc=1.21
+  - pip
+
+  # ── Bioinformatics CLI tools ──────────────────────────────────
+  - fastqc=0.12.1
+  - fastp=0.23.4
+  - star=2.7.11b
+  - subread=2.0.6       # featureCounts
+  - samtools=1.19
+
+  # ── R and core packages ───────────────────────────────────────
+  - r-base=4.5.0
+  - r-optparse
+  - r-ggplot2
+  - r-dplyr
+  - r-tibble
+  - r-tidyr
+  - r-readr
+  - r-scales
+  - r-rcolorbrewer
+  - r-pheatmap
+  - r-rmarkdown
+  - r-knitr
+  - r-kableextra
+  - r-dt
+  - r-cowplot
+  - r-ggrepel
+  - r-stringr
+  - r-viridis
+
+  # ── Bioconductor packages ─────────────────────────────────────
+  - bioconductor-deseq2
+  - bioconductor-reactomepa
+  - bioconductor-clusterprofiler
+  - bioconductor-enrichplot
+  - bioconductor-org.hs.eg.db
+  - bioconductor-org.mm.eg.db
+  - bioconductor-enhancedvolcano
+  - bioconductor-annotationdbi
+  - bioconductor-fgsea
+  - bioconductor-dose
+  - bioconductor-ggupset
+
+  - pip:
+    - multiqc==1.21
