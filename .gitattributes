@@ -11,3 +11,6 @@
 *.png        binary
 *.pdf        binary
 *.rds        binary
+
+# Exclude generated reports and example outputs from GitHub language statistics
+example_results/** linguist-vendored
